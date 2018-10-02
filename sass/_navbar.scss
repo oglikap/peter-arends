@@ -1,0 +1,27 @@
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #45897c;
+}
+.uk-navbar-nav>li>a {
+  color: #92bbb3;
+//  font-family: 'Courier';
+  font-size: 1.75em;
+  text-transform: lowercase;
+//  font-style: italic;
+  line-height: 1;
+  text-align: center;
+}
+.uk-navbar-nav > li {
+  width: 25%;
+}
+
+.uk-navbar > ul {
+  width: 100%;
+//  @include justify-content(center);
+}
+.uk-navbar-nav>li.active {
+  color: white;
+  background-color: #609a8e;
+}
+.uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a.uk-open, .uk-navbar-nav>li>a:focus {
+  color: white;
+}

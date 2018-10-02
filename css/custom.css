@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Courier New';
+  src: url("../fonts/cour.ttf") format("truetype"); }
+body {
+  font-family: 'Courier New';
+  background: #eaeaea; }
+
+.rjk-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh; }
+
+.inner-page {
+  height: 80vh;
+  background: #f5f5f5;
+  width: 80vw; }
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #45897c; }
+
+.uk-navbar-nav > li > a {
+  color: #92bbb3;
+  font-size: 1.75em;
+  text-transform: lowercase;
+  line-height: 1;
+  text-align: center; }
+
+.uk-navbar-nav > li {
+  width: 25%; }
+
+.uk-navbar > ul {
+  width: 100%; }
+
+.uk-navbar-nav > li.active {
+  color: white;
+  background-color: #609a8e; }
+
+.uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a.uk-open, .uk-navbar-nav > li > a:focus {
+  color: white; }
+
+/*# sourceMappingURL=custom.css.map */
