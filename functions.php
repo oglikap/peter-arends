@@ -10,6 +10,7 @@ function arends_scripts() {
   wp_enqueue_script( 'uikit_js', 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit.min.js', array( 'jquery' ), true );
   wp_enqueue_script( 'uikit_icons_js', 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit-icons.min.js' );
   wp_enqueue_script( 'uikit_lightbox_js', 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/components/lightbox.min.js' );
+  wp_enqueue_script( 'uikit_slider_js', 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/components/slider.min.js' );
 }
 add_action( 'wp_enqueue_scripts', 'arends_scripts' );
 
@@ -26,7 +27,7 @@ add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
 function special_nav_class ($classes, $item) {
     if (in_array('current-menu-item', $classes) ){
-        $classes[] = 'uk-active ';
+        $classes[] = 'uk-active';
     }
     return $classes;
 }

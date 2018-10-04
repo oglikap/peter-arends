@@ -9,7 +9,4 @@
     <div class="uk-background-cover">
       <div class="rjk-flex">
         <div class="inner-page">
-          <div class="uk-inline">
-    <!--<div class="uk-section">
-        <div class="inner-page uk-child-width-1-1" uk-grid>
-          -->
+          

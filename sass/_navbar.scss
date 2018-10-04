@@ -25,3 +25,15 @@
 .uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a.uk-open, .uk-navbar-nav>li>a:focus {
   color: white;
 }
+
+
+.uk-subnav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  @include justify-content(space-evenly);
+  background: #609a8e;
+  margin: 0;
+  ul {
+  }
+}

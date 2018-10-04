@@ -1,4 +1,3 @@
-        </div><!-- .uk-inline -->
       </div><!-- .inner-page -->
       </div><!-- .rjk-flex -->
     </div><!-- .uk-background-cover -->
